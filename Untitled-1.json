@@ -1,0 +1,14 @@
+[
+    {"papelaria": "caneta", "items":
+        [
+            {"bic": "azul", "preco": 2.99}
+        ]
+    }
+
+          {"papelaria": "caneta", "items":
+        [      
+            {"bic": "preta", "preco": 3.10}
+        ]
+          }
+       
+    ]

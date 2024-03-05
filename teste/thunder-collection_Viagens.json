@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Viagens",
+    "dateExported": "2024-03-05T00:42:47.529Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c20fe12f-8d53-495a-ba73-ee3b183f0fd5",
+            "colId": "3448a0d7-ce28-4f5d-a301-1dd0c807a9e9",
+            "containerId": "",
+            "name": "get all viagens",
+            "url": "{{base_url}}/viagens",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-04T23:41:32.925Z",
+            "modified": "2024-03-05T00:19:41.053Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "87507395-1030-4d09-b089-b47f8c2edbbc",
+            "colId": "3448a0d7-ce28-4f5d-a301-1dd0c807a9e9",
+            "containerId": "",
+            "name": "get all viagens by pais",
+            "url": "{{base_url}}/viagens/EUA",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-04T23:41:42.857Z",
+            "modified": "2024-03-04T23:44:24.429Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "5acfd110-14ce-4ba2-bef5-34ae7e7fe6d1",
+            "colId": "3448a0d7-ce28-4f5d-a301-1dd0c807a9e9",
+            "containerId": "",
+            "name": "get all viagens by pais find itens",
+            "url": "{{base_url}}/viagens/EUA/item",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-04T23:41:45.422Z",
+            "modified": "2024-03-05T00:19:46.576Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "4bd804e0-e4a1-4950-beb1-ff6a04b385d4",
+            "colId": "3448a0d7-ce28-4f5d-a301-1dd0c807a9e9",
+            "containerId": "",
+            "name": "post viagens",
+            "url": "{{base_url}}/viagens",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-04T23:41:47.118Z",
+            "modified": "2024-03-05T00:23:27.980Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"pais\": \"Franca\"\n}",
+                "form": []
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "555b7a57-3403-4bb5-a2c7-670a26a06f6b",
+            "colId": "3448a0d7-ce28-4f5d-a301-1dd0c807a9e9",
+            "containerId": "",
+            "name": "post viagens Copy",
+            "url": "{{base_url}}/viagens/Franca/item",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-05T00:23:15.951Z",
+            "modified": "2024-03-05T00:24:27.757Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cidade\": \"Paris\",\n  \"preco\": 3000.00\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        }
+    ]
+}
